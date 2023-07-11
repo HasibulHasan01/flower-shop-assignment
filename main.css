@@ -72,7 +72,7 @@ li > a{
     width: 60%;
     margin: 0 auto 0 auto;
     text-align: center;
-    margin-bottom: 250px;
+    margin-bottom: 150px;
 }
 
 .feature-pics{
@@ -95,10 +95,22 @@ li > a{
     background-color: #b41bae4d;
     border-radius: 150px 150px 0 0px;
     margin-right: 25px;
-    padding: 40px 60px 0px 60px;
+    padding: 15px 60px 0px 60px;
 }
 .pic-7{
     background-color: #bec41a6a;
     border-radius: 150px 150px 0 0px;
-    padding: 0px 60px 0px 60px;
+    padding: 0px 50px 0px 50px;
+}
+
+/* facilities area styles */
+.facilities-area{
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin: 0 auto 0 auto;
+}
+
+.fac-1, .fac-2, .fac-3{
+    text-align: center;
 }
