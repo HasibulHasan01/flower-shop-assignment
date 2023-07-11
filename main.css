@@ -51,11 +51,54 @@ li > a{
 }
 
 .header-text{
-    margin: 200px 0px 150px 240px;
+    margin: 200px 0px 50px 240px;
     width: 40%;
 }
 
 .header > img{
     width: 400px;
-    padding: 0;
+    margin-bottom: -60px;
+}
+
+/* main area styles */
+
+.main-area-text{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.feature-area{
+    width: 60%;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    margin-bottom: 250px;
+}
+
+.feature-pics{
+    display: flex;
+}
+
+.feature-pics img{
+    width: 200px;
+    margin-top: 75px;
+    
+}
+
+.pic-5{
+    background-color: #0598a04d;
+    border-radius: 150px 150px 0 0px;
+    padding: 90px 60px 0px 60px;
+    margin-right: 25px;
+}
+.pic-6{
+    background-color: #b41bae4d;
+    border-radius: 150px 150px 0 0px;
+    margin-right: 25px;
+    padding: 40px 60px 0px 60px;
+}
+.pic-7{
+    background-color: #bec41a6a;
+    border-radius: 150px 150px 0 0px;
+    padding: 0px 60px 0px 60px;
 }
