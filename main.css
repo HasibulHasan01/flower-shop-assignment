@@ -154,3 +154,10 @@ li > a{
     width: 250px;
     margin-right: 25px;
 }
+
+
+/* payment area styles */
+.payment{
+    text-align: center;
+    margin-top: 150px;
+}
