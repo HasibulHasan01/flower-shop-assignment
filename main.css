@@ -115,7 +115,7 @@ li > a{
 }
 
 
-/*  */
+/* hot deal area styles */
 
 .hot-deal{
     display: flex;
@@ -132,4 +132,25 @@ li > a{
 .hot-deal > img {
     width: 200px;
     margin-bottom: -60px;
+}
+
+/* instagram area styles */
+
+.instagram-area{
+    margin-top: 150px;
+}
+
+.instagram-area-text{
+    text-align: center;
+}
+
+
+.instagram-pics{
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-pics > img{
+    width: 250px;
+    margin-right: 25px;
 }
