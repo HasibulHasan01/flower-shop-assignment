@@ -21,6 +21,10 @@ body{
     color: rgb(195, 14, 14);
 }
 
+.writer{
+    font-size: 16px;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -51,13 +55,13 @@ li > a{
 }
 
 .header-text{
-    margin: 200px 0px 50px 240px;
+    margin: 20px 0px 50px 240px;
     width: 40%;
 }
 
 .header > img{
     width: 400px;
-    margin-bottom: -60px;
+    margin-bottom: 0px;
 }
 
 /* main area styles */
@@ -83,6 +87,10 @@ li > a{
     width: 200px;
     margin-top: 75px;
     
+}
+
+.pink-flower a{
+    color: black;
 }
 
 .pic-5{
@@ -160,4 +168,39 @@ li > a{
 .payment{
     text-align: center;
     margin-top: 150px;
+}
+
+/* latest deal area styles */
+.latest-deals{
+    background-image: url(Flower-Asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: 150px auto;
+    padding: 30px;
+    width: 60%;
+}
+
+input {
+    height: 36px;
+    width: 300px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* footer area styles */
+.footer{
+    height: 400px;
+    text-align: center;
+    padding-top: 200px;
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+
+.name{
+    color: rgb(195, 14, 14);
+}
+
+.footer-p{
+    margin-top: 175px;
 }
