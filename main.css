@@ -110,7 +110,26 @@ li > a{
     width: 80%;
     margin: 0 auto 0 auto;
 }
-
 .fac-1, .fac-2, .fac-3{
     text-align: center;
+}
+
+
+/*  */
+
+.hot-deal{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 150px;
+}
+
+.hot-deal-text{
+    margin: 200px 0px 50px 200px;
+    width: 40%;
+}
+
+.hot-deal > img {
+    width: 200px;
+    margin-bottom: -60px;
 }
